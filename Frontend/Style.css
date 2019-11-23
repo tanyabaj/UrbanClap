@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 10px 8px #b1b1b1;
+}
+.top {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    width: 960px;
+}
+
+.top-left {
+    display: flex;
+    flex: 1;
+}
+
+.top-right {
+    display: flex;
+    flex: 1px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+#register-button,
+#login-button,
+#aboutus-button,
+#login-submit-button,
+#reg-submit-button {
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    background-color: rgb(97, 230, 9);
+    color: white;
+    border-radius: 5px;
+}
+
+#register-button:hover,
+#aboutus-button:hover,
+#login-button:hover,
+#login-submit-button:hover,
+#reg-submit-button:hover {
+    box-shadow: 3px 3px 4px #888888;
+    background-color: red;
+}
+
+#login-button {
+    margin-right: 20px;
+}
+#register-button{
+    margin-right: 20px;
+
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 960px;
+}
+
+.about-us-heading {
+    font-weight: bold;
+    margin-top: 75px;
+    font-size: 18px;
+}
+
+.about-us-content {
+    margin-top: 50px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 960px;
+}
+.text-content{
+    font-size:50px;
+    font-weight: bold;
+    padding-top: 80px;
+}
+
+.text-content2{
+    font-size:25px;
+    /* font-weight: bold; */
+    padding-top: 30px;
+
+}
+
+.select-option{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 300px;
+    background: #f1f1f1;
+  }
+  .top-down {
+    display: flex;
+    flex: 1px;
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#saloon-button
+{
+    height: 150px;
+    width: 150px;
+    font-size: 15px;
+    background-image: url('/home/harikrishna/UrbanClap/Frontend/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:darkblue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#electric-button
+{
+    height: 150px;
+    width: 150px;
+    font-size: 15px;
+    background-image: url('/home/harikrishna/UrbanClap/Frontend/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:whitesmoke;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#cleaning-button
+{
+    height: 150px;
+    width: 150px;
+    font-size: 15px;
+    background-image: url('/home/harikrishna/UrbanClap/Frontend/3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:blue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#fitness-button
+ {
+    height: 150px;
+    width: 150px;
+    font-size: 15px;
+    background-image: url('/home/harikrishna/UrbanClap/Frontend/4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:red;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#saloon-button:hover,
+#electric-button:hover,
+#cleaning-button:hover,
+#fitness-button:hover {
+    box-shadow: 3px 3px 4px #888888;
+    background-image: url('/home/harikrishna/UrbanClap/Frontend/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
